@@ -9,6 +9,8 @@ function show_usage()
     echo -e "\t -d Untar decrypted file"
 }
 
+DEFLATE=0
+
 if [ $# -lt 1 ]; then
     show_usage
     exit -1
@@ -16,8 +18,8 @@ fi
 
 if [ "$1" == '-d' ]; then
     DEFLATE=1
+    shift
 fi
-shift
 
 SRC="$1"
 
