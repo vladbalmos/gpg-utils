@@ -5,7 +5,7 @@
 function show_usage()
 {
     command=$(basename $0)
-    echo "Usage: $command [-d] /path/to/file/or/folder [destination]"
+    echo "Usage: [GPG_DEFAULT_USER_ID="Your Name"] $command [-d] /path/to/file/or/folder [destination]"
     echo -e "\t -d Untar decrypted file"
 }
 

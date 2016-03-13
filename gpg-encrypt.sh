@@ -5,7 +5,7 @@
 function show_usage()
 {
     command=$(basename $0)
-    echo "Usage: $command /path/to/file/or/folder [destination]"
+    echo "Usage: [GPG_DEFAULT_USER_ID="Your Name"] $command /path/to/file/or/folder [destination]"
     echo "If first argument is a directory it will be tarred first"
 }
 
