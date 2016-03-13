@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# export GPG_DEFAULT_USER_ID='You Name' # this goes into .bashrc
+# export GPG_DEFAULT_USER_ID='Your Name' # this goes into .bashrc
 
 function show_usage()
 {
